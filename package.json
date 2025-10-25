@@ -9,12 +9,15 @@
     "start": "vite start"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
     "@tanstack/react-query": "^5.66.0",
     "@tanstack/react-query-devtools": "^5.66.0",
     "@tanstack/react-router": "^1.133.22",
     "@tanstack/react-router-devtools": "^1.133.22",
     "@tanstack/react-router-ssr-query": "^1.133.22",
     "@tanstack/react-start": "^1.133.22",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "redaxios": "^0.5.1",
@@ -26,8 +29,10 @@
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
+    "drizzle-kit": "^0.31.5",
     "postcss": "^8.5.1",
     "tailwindcss": "^4.1.15",
+    "tsx": "^4.20.6",
     "typescript": "^5.7.2",
     "vite": "^7.1.7",
     "vite-tsconfig-paths": "^5.1.4"
